@@ -1,20 +1,26 @@
-//
-//  ViewController.swift
-//  EscapeRoomApp
-//
-//  Created by Gage Beatty on 4/15/21.
-//  Copyright © 2021 Gage Beatty. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var questionLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func answerOne(_ sender: UIButton) {
+        questionLabel.text = "Wrong"
+    }
+    @IBAction func answerTwo(_ sender: UIButton) {
+        questionLabel.text = "Wrong"
+    }
+    @IBAction func answerThree(_ sender: UIButton) {
+        questionLabel.text = "Correct!"
+    }
+    @IBAction func answerFour(_ sender: UIButton) {
+        questionLabel.text = "Wrong"
+    }
+    
 
 }
 
