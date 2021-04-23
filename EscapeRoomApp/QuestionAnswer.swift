@@ -2,7 +2,7 @@ import Foundation
 
 
 struct QuestionAnswer {
-    // type of question.
+    // The topic of the question.
     var topic: String
     // The question itself.
     var Question: String
