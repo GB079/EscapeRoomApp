@@ -16,6 +16,7 @@
 		8CE45C1D2628A79600CE6D35 /* EscapeRoomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE45C1C2628A79600CE6D35 /* EscapeRoomAppUITests.swift */; };
 		8CE45C9F262DFDA200CE6D35 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE45C9E262DFDA200CE6D35 /* AnswerViewController.swift */; };
 		8CE45CA1262F540900CE6D35 /* QuestionAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE45CA0262F540900CE6D35 /* QuestionAnswer.swift */; };
+		8CE45DC5263C7A8B00CE6D35 /* MathQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE45DC4263C7A8B00CE6D35 /* MathQuestions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8CE45C1E2628A79600CE6D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE45C9E262DFDA200CE6D35 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		8CE45CA0262F540900CE6D35 /* QuestionAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
+		8CE45DC4263C7A8B00CE6D35 /* MathQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8CE45BFE2628A79400CE6D35 /* ViewController.swift */,
 				8CE45C002628A79400CE6D35 /* Main.storyboard */,
 				8CE45CA0262F540900CE6D35 /* QuestionAnswer.swift */,
+				8CE45DC4263C7A8B00CE6D35 /* MathQuestions.swift */,
 				8CE45C9E262DFDA200CE6D35 /* AnswerViewController.swift */,
 				8CE45C032628A79600CE6D35 /* Assets.xcassets */,
 				8CE45C052628A79600CE6D35 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				8CE45C9F262DFDA200CE6D35 /* AnswerViewController.swift in Sources */,
 				8CE45BFF2628A79400CE6D35 /* ViewController.swift in Sources */,
+				8CE45DC5263C7A8B00CE6D35 /* MathQuestions.swift in Sources */,
 				8CE45BFD2628A79400CE6D35 /* AppDelegate.swift in Sources */,
 				8CE45CA1262F540900CE6D35 /* QuestionAnswer.swift in Sources */,
 			);
